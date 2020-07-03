@@ -11,7 +11,7 @@ function Decoder(bytes, port) {
     };
 
     // Device stats
-    params.battery = (bytes[11] << 8) | bytes[12] / 100;
+    params.battery = ((bytes[11] << 8) | bytes[12]) / 100;
     params.sensor_status = bytes[17];
     params.payload_counter = bytes[22];
 
