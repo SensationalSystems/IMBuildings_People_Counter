@@ -1,10 +1,15 @@
-# The Things Network decoder functions for IMBuildings LoRaWAN People counter
+# The Things Network decoder function for IMBuildings LoRaWAN People Counter
 
-To use this:
+This decoder supports the [IMBuildings LoRaWAN People Counters](https://connectedthings.store/gb/imbuildings-lorawan-people-counter-eu868.html). These are beam-break counters that count traffic in both directions.
+
+<img src="https://connectedthings.store/316-large_default/imbuildings-lorawan-people-counter-eu868.jpg" width="400">
+
+To use this function:
 * create a TTN application and register your devices using the TTN console
 * in your application, choose "Payload Formats" from the navigation
 * paste the decoder function into the textarea
+* register the devices in your application using the provided keys
 
-The unit send well documented payloads that these decoders should handle.
+The units send well documented payloads that these decoders should handle.
 
 This code is MIT licenced, and it works fine in our testing. We don't claim it to be excellent, pull requests are encouraged!
