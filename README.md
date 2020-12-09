@@ -1,5 +1,8 @@
 # The Things Network decoder function for IMBuildings LoRaWAN People Counter
 
+## Depreciated - See IMBuildings decoder
+The manufacturer, [IMBuildings, has now published a decoder here](https://github.com/IMBUILDINGS/PayloadParser).
+
 This decoder supports the [IMBuildings LoRaWAN People Counters](https://connectedthings.store/gb/imbuildings-lorawan-people-counter-eu868.html). These are beam-break counters that count traffic in both directions.
 
 <img src="https://connectedthings.store/316-large_default/imbuildings-lorawan-people-counter-eu868.jpg" width="400">
